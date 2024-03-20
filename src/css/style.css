@@ -1,23 +1,29 @@
-h1 {
-    text-align: center;
-    text-transform: capitalize;
-    font-size: large;
-    color: black;
+.estrofa1 {
+    color: yellow;
+    font-size: 50px;
 }
 
-h2 {
+.estrofa2 {
     color: blue;
+    font-size: 40px;
 }
 
-p {
-    color: green;
+.estrofa3 {
+    color: red;
+    font-size: 30px;
 }
 
-.titulo {
-    color: #1cb0f6;
+.parrafo1 {
+    color: yellow;
+    font-size: 25px;
 }
 
-.parrafo {
-    color: #58cc02;
+.parrafo2 {
+    color: blue;
+    font-size: 20px;
 }
 
+.parrafo3 {
+    color: red;
+    font-size: 15px;
+}
