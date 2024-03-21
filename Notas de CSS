@@ -1,0 +1,64 @@
+css: CASCADING, STYLE, SHEETS
+
+permite darle al codigo html un estilo unico
+
+se creo despues de haber creado html como complemento
+
+los documentos html se utiliza para la semantica
+el CSS incluira los aspectos RELACIONADOS CON LOS ESTILOS
+
+va de la mano de 3 lenguajes
+
+HTML: sistema OSEO
+CSS: color de pelo, color de ojos etc.
+JS: los vasos sanguineos, nervios
+
+sintaxis:
+
+(h1){color:blues;font-size:12px;}
+titulo {propiedad:valor ; tamaño de fuente}
+
+para llamar una clase se coloca primero el punto y luego el nombre de clase
+
+una clase es un conjunto de codigos que recivira una orden y un estilo para esa clase
+
+forma de enlazar a CSS - utilizar siempre esta forma por buenas practicas
+
+- mediante link: conexion externa (con la carpeta SRC)
+- colocando estilo a cada etiqueta
+
+se LEE DE ARRIBA HACIA ABAJO
+
+tiene una semantica
+
+clase se aplica a multiples elementos al tiempo (5 parrafos) y darle color quedara para los 5 parrafos
+
+el ID es proceso individual solo para cada uno
+
+-------------------------------------------------------------
+SIEMPRE QUE SE INICIE LA CLASE DE DESARROLLO.
+
+1- abrir terminal y revisar que no hayan perfiles abiertos con el comando: git config --list
+
+2- para agregar el usuario se necesita tu nombre de usuario de GITHUB y el correo asociado a la plataforma github con los siguientes comandos:
+
+git config --global user.name "osmun15"
+git config --global user.email "osmu1592@gmail.com"
+
+DENTRO DE LAS COMILLAS VA LOS DATOS DE CADA UNO TENER MUY EN CUENTA LOS ESPACIOS
+
+3- en caso tal que hayan perfiles abiertos PARA PODER CERRARLOS debemos correr los mismo codigos PERO SI NADA ENTRE LAS COMILLAS, ejm:
+
+git config --global user.name ""
+git config --global user.email ""
+
+CONSULTAR BUENA PRACTICA PARA INGRESAR CODIGO AL CSS LLAMADA (BEM)
+
+en css la clase se llama con punto y el ID con numeral #
+
+MODELO DE CAJA:
+
+debemos cojer todos los elementos de la pagina e ingresarlo en modelo de caja
+
+CONSULTAR:
+los display y el modelo de caja
